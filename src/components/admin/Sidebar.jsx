@@ -2,7 +2,7 @@ import { Link } from "react-router"
 
 function Sidebar({isActive}) {
   return (
-    <div className={`${isActive ? 'w-[260px]' : 'w-0'} transition-all duration-300 bg-slate-700 min-h-screen`}>
+    <div className={`${isActive ? 'w-65' : 'w-0'} transition-all duration-300 bg-slate-700 min-h-screen`}>
             <div className="bg-red-500 text-white h-12 flex items-center justify-center text-xl">
                  MasterIT
             </div>
