@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+body{
+    font-family: "Jost", sans-serif;
+}
+
+/* a.active{
+    text-decoration: underline;
+    text-decoration-color: burlywood;
+} */
+
+@theme{
+    --font-jost: "Jost", sans-serif;
+    --color-primary: #171717;
+    --color-secondary: #f6e6cf;
+}
+
+@layer components {
+    .btn-primary{
+        @apply bg-primary text-white px-4 py-1.5 rounded-lg font-semibold;
+    }
+    .btn-cart{
+        @apply w-5 h-5 shadow rounded border border-gray-200 flex items-center justify-center cursor-pointer active:scale-95 transition-all;
+    }
+}
