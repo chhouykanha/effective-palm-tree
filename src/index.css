@@ -5,10 +5,6 @@ body{
     font-family: "Jost", sans-serif;
 }
 
-/* a.active{
-    text-decoration: underline;
-    text-decoration-color: burlywood;
-} */
 
 @theme{
     --font-jost: "Jost", sans-serif;
